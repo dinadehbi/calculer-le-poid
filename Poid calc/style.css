@@ -1,0 +1,43 @@
+#Div1{
+height: 400px;
+width: 600px;
+background-color: #ff0c55;
+border-radius: 20px;
+z-index: -1;
+}
+
+.inp{
+    border: 2px solid rgb(0, 201, 201);
+    border-radius: 10px;
+height: 30px;
+width: 350px;
+margin-left: 130px;
+margin-top: 20px;
+}
+
+label{
+font-size: 20px;
+font-family: cursive;
+}
+p{
+display: inline;
+font-family: cursive;
+
+}
+#checkbox{
+display: inline;
+}
+button{
+height: 30px;
+width: 100px;
+border-radius: 10px;
+background-color:  rgb(0, 201, 201);
+color: white;
+border: none;
+margin-left: 250px;
+
+
+}
+#second{
+    margin-left: 130px;
+}
