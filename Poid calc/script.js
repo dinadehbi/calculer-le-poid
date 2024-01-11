@@ -12,21 +12,17 @@ calculer.addEventListener("click", myFunction);
 function myFunction(){
     if(check1.checked){
         let Mince = (input1.value)-100+(input2.value/10)*0.9;
-        demo.innerHTML= Mince;
+        demo.innerHTML= Mince + " Kg";
         localStorage.setItem("value", Mince);
 
     }else if (check2.checked) {
         let Moyen = (input1.value)-100+(input2.value/10)*0.9*0.9;
-        demo.innerHTML= Moyen;
+        demo.innerHTML= Moyen + " Kg";
         localStorage.setItem("value", Moyen);
-
-       // localStorage.setItem("value1", "Mince")
-
-
 
     } else if(check3.checked){
         let large = (input1.value)-100+(input2.value/10)*0.9*1.1;
-        demo.innerHTML= large;
+        demo.innerHTML= large + " Kg";
         localStorage.setItem("value", large);
 
     }
